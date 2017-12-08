@@ -1,6 +1,6 @@
 {
     // I can't add descriptions because of this stupid bug:
-    // https://github.com/SublimeTextIssues/Core#2044
+    // https://github.com/SublimeTextIssues/Core/issues/1061
 
     "scope": "source.python",
     "completions": [
@@ -198,9 +198,9 @@
         {"trigger": "begin_edit", "contents": "begin_edit(${1:edit_token}, ${2:cmd}, ${3:args=None})" },
         {"trigger": "end_edit", "contents": "end_edit(${1:edit})" },
         {"trigger": "is_in_edit", "contents": "is_in_edit()" },
-        {"trigger": "insert", "contents": "insert(edit, pt, text)" },
-        {"trigger": "erase", "contents": "erase(edit, r)" },
-        {"trigger": "replace", "contents": "replace(edit, r, text)" },
+        {"trigger": "insert", "contents": "insert(${1:edit}, ${2:pt}, ${3:text})" },
+        {"trigger": "erase", "contents": "erase(${1:edit}, ${2:r})" },
+        {"trigger": "replace", "contents": "replace(${1:edit}, ${2:r}, ${3:text})" },
         {"trigger": "change_count", "contents": "change_count()" },
         {"trigger": "run_command", "contents": "run_command(${1:cmd}, ${2:args=None})" },
         {"trigger": "sel", "contents": "sel()" },
