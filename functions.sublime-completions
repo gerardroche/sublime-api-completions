@@ -2,63 +2,8 @@
     // I can't add descriptions because of this stupid bug:
     // https://github.com/SublimeTextIssues/Core/issues/1061
 
-    "scope": "source.python",
+    "scope": "source.python - meta.statement.import",
     "completions": [
-
-        // sublime.py constants
-
-        "CLASS_EMPTY_LINE",  // default = 256
-        "CLASS_LINE_END",  // default = 128
-        "CLASS_LINE_START",  // default = 64
-        "CLASS_PUNCTUATION_END",  // default = 8
-        "CLASS_PUNCTUATION_START",  // default = 4
-        "CLASS_SUB_WORD_END",  // default = 32
-        "CLASS_SUB_WORD_START",  // default = 16
-        "CLASS_WORD_END",  // default = 2
-        "CLASS_WORD_START",  // default = 1
-        "DIALOG_CANCEL",  // default = 0
-        "DIALOG_NO",  // default = 2
-        "DIALOG_YES",  // default = 1
-        "DRAW_EMPTY",  // default = 1
-        "DRAW_EMPTY_AS_OVERWRITE",  // default = 4
-        "DRAW_NO_FILL",  // default = 32
-        "DRAW_NO_OUTLINE",  // default = 256
-        "DRAW_OUTLINED",  // default = 32 Deprecated, use DRAW_NO_FILL instead
-        "DRAW_SOLID_UNDERLINE",  // default = 512
-        "DRAW_SQUIGGLY_UNDERLINE",  // default = 2048
-        "DRAW_STIPPLED_UNDERLINE",  // default = 1024
-        "ENCODED_POSITION",  // default = 1
-        "FORCE_GROUP",  // default = 8
-        "HIDDEN",  // default = 128
-        "HIDE_ON_MINIMAP",  // default = 2
-        "HIDE_ON_MOUSE_MOVE_AWAY",  // default = 8
-        "HOVER_GUTTER",  // default = 2
-        "HOVER_MARGIN",  // default = 3
-        "HOVER_TEXT",  // default = 1
-        "HTML",  // default = 1
-        "IGNORECASE",  // default = 2
-        "INHIBIT_EXPLICIT_COMPLETIONS",  // default = 16
-        "INHIBIT_WORD_COMPLETIONS",  // default = 8
-        "KEEP_OPEN_ON_FOCUS_LOST",  // default = 2
-        "LAYOUT_BELOW",  // default = 1
-        "LAYOUT_BLOCK",  // default = 2
-        "LAYOUT_INLINE",  // default = 0
-        "LITERAL",  // default = 1
-        "MONOSPACE_FONT",  // default = 1
-        "OP_EQUAL",  // default = 0
-        "OP_NOT_EQUAL",  // default = 1
-        "OP_NOT_REGEX_CONTAINS",  // default = 5
-        "OP_NOT_REGEX_MATCH",  // default = 3
-        "OP_REGEX_CONTAINS",  // default = 4
-        "OP_REGEX_MATCH",  // default = 2
-        "PERSISTENT",  // default = 16
-        "TRANSIENT",  // default = 4
-        "UI_ELEMENT_MENU",  // default = 16
-        "UI_ELEMENT_MINIMAP",  // default = 2
-        "UI_ELEMENT_OPEN_FILES",  // default = 32
-        "UI_ELEMENT_SIDE_BAR",  // default = 1
-        "UI_ELEMENT_STATUS_BAR",  // default = 8
-        "UI_ELEMENT_TABS",  // default = 4
 
         // sublime.py functions
 
@@ -98,18 +43,6 @@
         {"trigger": "version", "contents": "version()" },
         {"trigger": "windows", "contents": "windows()" },
         {"trigger": "yes_no_cancel_dialog", "contents": "yes_no_cancel_dialog(${1:msg}, ${2:yes_title=\"\"}, ${3:no_title=\"\"})" },
-
-        // sublime.py classes
-        {"trigger": "Window", "contents": "Window" },
-        {"trigger": "Edit", "contents": "Edit" },
-        {"trigger": "Region", "contents": "Region" },
-        {"trigger": "Selection", "contents": "Selection" },
-        {"trigger": "Sheet", "contents": "Sheet" },
-        {"trigger": "View", "contents": "View" },
-        {"trigger": "Settings", "contents": "Settings" },
-        {"trigger": "Phantom", "contents": "Phantom" },
-        {"trigger": "PhantomSet", "contents": "PhantomSet" },
-        {"trigger": "Html", "contents": "Html" },
 
         // sublime.py window methods
 
@@ -277,21 +210,6 @@
         {"trigger": "is_popup_visible", "contents": "is_popup_visible()" },
         {"trigger": "hide_popup", "contents": "hide_popup()" },
         {"trigger": "is_auto_complete_visible", "contents": "is_auto_complete_visible()" },
-
-        // sublime_plugin.py classes
-        {"trigger": "Summary", "contents": "Summary" },
-        {"trigger": "CommandInputHandler", "contents": "CommandInputHandler" },
-        {"trigger": "BackInputHandler", "contents": "BackInputHandler" },
-        {"trigger": "TextInputHandler", "contents": "TextInputHandler" },
-        {"trigger": "ListInputHandler", "contents": "ListInputHandler" },
-        {"trigger": "Command", "contents": "Command" },
-        {"trigger": "ApplicationCommand", "contents": "ApplicationCommand" },
-        {"trigger": "WindowCommand", "contents": "WindowCommand" },
-        {"trigger": "TextCommand", "contents": "TextCommand" },
-        {"trigger": "EventListener", "contents": "EventListener" },
-        {"trigger": "ViewEventListener", "contents": "ViewEventListener" },
-        {"trigger": "MultizipImporter", "contents": "MultizipImporter" },
-        {"trigger": "ZipLoader", "contents": "ZipLoader" },
 
     ]
 }
