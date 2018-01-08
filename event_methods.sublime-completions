@@ -1,0 +1,38 @@
+{
+    // I can't add descriptions because of this stupid bug:
+    // https://github.com/SublimeTextIssues/Core/issues/1061
+
+    "scope": "source.python - meta.statement.import - string - comment - variable",
+    "completions": [
+
+        // Event methods
+
+        {"trigger": "on_new", "contents": "def on_new(self, view):\n\t"},
+        {"trigger": "on_new_async", "contents": "def on_new_async(self, view):\n\t"},
+        {"trigger": "on_clone", "contents": "def on_clone(self, view):\n\t"},
+        {"trigger": "on_clone_async", "contents": "def on_clone_async(self, view):\n\t"},
+        {"trigger": "on_load", "contents": "def on_load(self, view):\n\t"},
+        {"trigger": "on_load_async", "contents": "def on_load_async(self, view):\n\t"},
+        {"trigger": "on_pre_close", "contents": "def on_pre_close(self, view):\n\t"},
+        {"trigger": "on_close", "contents": "def on_close(self, view):\n\t"},
+        {"trigger": "on_pre_save", "contents": "def on_pre_save(self, view):\n\t"},
+        {"trigger": "on_pre_save_async", "contents": "def on_pre_save_async(self, view):\n\t"},
+        {"trigger": "on_post_save", "contents": "def on_post_save(self, view):\n\t"},
+        {"trigger": "on_post_save_async", "contents": "def on_post_save_async(self, view):\n\t"},
+        {"trigger": "on_modified", "contents": "def on_modified(self, view):\n\t"},
+        {"trigger": "on_modified_async", "contents": "def on_modified_async(self, view):\n\t"},
+        {"trigger": "on_selection_modified", "contents": "def on_selection_modified(self, view):\n\t"},
+        {"trigger": "on_selection_modified_async", "contents": "def on_selection_modified_async(self, view):\n\t"},
+        {"trigger": "on_activated", "contents": "def on_activated(self, view):\n\t"},
+        {"trigger": "on_activated_async", "contents": "def on_activated_async(self, view):\n\t"},
+        {"trigger": "on_deactivated", "contents": "def on_deactivated(self, view):\n\t"},
+        {"trigger": "on_deactivated_async", "contents": "def on_deactivated_async(self, view):\n\t"},
+        {"trigger": "on_query_context", "contents": "def on_query_context(self, view, key, operator, operand, match_all):\n\t"},
+        {"trigger": "on_query_completions", "contents": "def on_query_completions(self, view, prefix, locations):\n\t"},
+        {"trigger": "on_hover", "contents": "def on_hover(self, view, point, hover_zone):\n\t"},
+        {"trigger": "on_text_command", "contents": "def on_text_command(self, view, name, args):\n\t"},
+        {"trigger": "on_window_command", "contents": "def on_window_command(self, window, name, args):\n\t"},
+        {"trigger": "on_post_text_command", "contents": "def on_post_text_command(self, view, name, args):\n\t"},
+        {"trigger": "on_post_window_command", "contents": "def on_post_window_command(self, window, name, args):\n\t"},
+    ]
+}
