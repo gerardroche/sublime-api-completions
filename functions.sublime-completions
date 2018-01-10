@@ -2,7 +2,7 @@
     // I can't add descriptions because of this stupid bug:
     // https://github.com/SublimeTextIssues/Core/issues/1061
 
-    "scope": "source.python - meta.statement.import",
+    "scope": "source.python - meta.statement.import - meta.class.inheritance",
     "completions": [
 
         // sublime.py functions
