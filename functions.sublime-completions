@@ -53,7 +53,7 @@
         {"trigger": "active_view", "contents": "active_view()" },
         {"trigger": "run_command", "contents": "run_command(${1:cmd}, ${2:args=None})" },
         {"trigger": "new_file", "contents": "new_file(${1:flags=0}, ${2:syntax=\"\"})" },
-        {"trigger": "open_file", "contents": "open_file(${1:fname}, ${1:flags=0}, ${2:group=-1})" },
+        {"trigger": "open_file", "contents": "open_file(${1:fname}${2:, ${3:flags=0}${4:, ${5:group=-1}}})" },
         {"trigger": "find_open_file", "contents": "find_open_file(${1:fname})" },
         {"trigger": "num_groups", "contents": "num_groups()" },
         {"trigger": "active_group", "contents": "active_group()" },
